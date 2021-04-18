@@ -19,16 +19,16 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "https://i.imgur.com/EONqYa9.gif");
-            $(".navbar .navbar-brand source[type='image/webp']").attr("srcset", "https://i.imgur.com/EONqYa9.gif");
-            $(".navbar .navbar-brand source[type='image/jpeg']").attr("srcset", "https://i.imgur.com/EONqYa9.gif");
+            $(".navbar .navbar-brand img").attr("src", "https://cdn.discordapp.com/attachments/817447136585056307/833079430669664256/161869194499017959.gif");
+            $(".navbar .navbar-brand source[type='image/webp']").attr("srcset", "https://cdn.discordapp.com/attachments/817447136585056307/833079430669664256/161869194499017959.gif");
+            $(".navbar .navbar-brand source[type='image/jpeg']").attr("srcset", "https://cdn.discordapp.com/attachments/817447136585056307/833079430669664256/161869194499017959.gif");
             $(".navbar .navbar-brand source[type='image/png']").attr("srcset", "");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "https://i.imgur.com/EONqYa9.gif");
+            $(".navbar .navbar-brand img").attr("src", "https://cdn.discordapp.com/attachments/817447136585056307/833079430669664256/161869194499017959.gif");
             $(".navbar .navbar-brand source[type='image/webp']").attr("srcset", "");
             $(".navbar .navbar-brand source[type='image/jpeg']").attr("srcset", "");
-            $(".navbar .navbar-brand source[type='image/png']").attr("srcset", "https://i.imgur.com/EONqYa9.gif");
+            $(".navbar .navbar-brand source[type='image/png']").attr("srcset", "https://cdn.discordapp.com/attachments/817447136585056307/833079430669664256/161869194499017959.gif");
         }
     });
 
